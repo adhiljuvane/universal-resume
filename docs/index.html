@@ -16,12 +16,12 @@
   <body>
     <main class="font-firago hyphens-manual">
       <div
-        class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white"
+        class="p-6 mx-auto max-w-2xl print:max-w-letter md:max-w-letter xsm:p-8 sm:p-9 md:p-16 bg-white"
       >
         <!-- Name -->
         <header class="flex items-center mb-8 md:mb-11">
           <div
-            class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
+            class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-gray-700 px-3"
             style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/"
           >
             <div
@@ -40,7 +40,7 @@
 
         <!-- Column -->
         <div
-          class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto"
+          class="md:col-count-2 print:col-count-2 col-gap-md"
         >
           <!-- EDUCATION -->
 
@@ -48,7 +48,7 @@
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
               <h2
-                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
               >
                 EDUCATION
               </h2>
@@ -75,7 +75,7 @@
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
               <h2
-                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
               >
                 EXPERIENCE
               </h2>
@@ -150,13 +150,84 @@
 
           <!-- /EXPERIENCE -->
 
+          <!-- SKILLS -->
+          <section class="mt-8 first:mt-0">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-bold"
+              >
+                SKILLS
+              </h2>
+              <section class="mb-4.5 break-inside-avoid">
+                <div class="my-3.2 last:pb-1.5">
+                  <ul
+                    class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+                  >
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      HTML
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      CSS
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      JavaScript
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      React js
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      Redux
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      Firebase
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      Node js
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      Express js
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      Mongo DB
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-gray-200 bg-gray-200"
+                    >
+                      SCSS
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </section>
+          <!-- /SKILLS -->
+
           <!-- PROJECTS -->
 
           <section class="mt-8 first:mt-0">
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
               <h2
-                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550"
               >
                 PROJECTS
               </h2>
@@ -172,7 +243,7 @@
                     >
                       MessedUP
                       <span
-                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                        class="inline-block text-gray-550 print:text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
                         >↗</span
                       >
                     </a>
@@ -182,14 +253,42 @@
                   </p>
                 </header>
                 <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                  It is a mess management application for college hostel mess's , It has two applications one for admins and one for users.
-                  Users can view daily Menu , can see pending bill , Can request for Late mess (if for some reason user will be late ) , or Mess cuts (In case user doesn't need food for specific days). Admins can can send Notices , Automatic Bill Calculation based on the details enterd by admins & each users mess cuts and fine details.
+                  It is a mess management application for college hostel mess's ,
+                  Users can view daily Menu , can see pending bill , Can request for Late mess (if for some reason user will be late ) , or Mess cuts (In case user doesn't need food for specific days). Admins can can send Notices , Automatic Bill Calculation.
                   <br/>
-                  <div>Tech Used : <div class="font-semibold inline-block">React js for Frontend. & Firebase for Database & Authentication.</div></div>
+                  <div class="font-semibold">Tech Used : React js for Frontend. & Firebase for Database & Authentication.</div>
                   <div>GitHub Repo : <a href="https://github.com/adhiljuvane/MessdUp-Dashboard" class="underline">https://github.com/adhiljuvane/MessdUp-Dashboard</a></div>
                 </p>
               </section>
             </div>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3
+                  class="text-lg font-semibold text-gray-700 leading-snugish"
+                >
+                  <a
+                    href="https://github.com/WebPraktikos/universal-resume"
+                    class="group"
+                  >
+                    Vis-Aid
+                    <span
+                      class="inline-block text-gray-550 print:text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                      >↗</span
+                    >
+                  </a>
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Jan 2020 - May 2020 | React Native , Clarifai , DialogueFlow
+                </p>
+              </header>
+              <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                A React Native application for visually challenged people, toddlers and kids who face learning disabilities, to help them detect the objects in front, and convert text documents into audio. The UI is voice based, and the application also includes a barcode scanner to obtain details about the scanned product.
+                <br/>
+                <div class="font-semibold">Tech Used : React Native , React Navigation , Clarifai , DialogueFlow</div>
+                <div>GitHub Repo : <a href="https://github.com/adhiljuvane/Project-native" class="underline">https://github.com/adhiljuvane/Project-native</a></div>
+              </p>
+            </section>
           </section>
 
           <!-- /PROJECTS -->
@@ -198,7 +297,7 @@
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
               <h2
-                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-bold"
               >
                 WORK SAMPLE
               </h2>
@@ -214,7 +313,7 @@
                     >
                       Carpe Diem
                       <span
-                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                        class="inline-block text-gray-550 print:text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
                         >↗</span
                       >
                     </a>
@@ -233,84 +332,13 @@
           </section>
 
           <!-- /WORK SAMPLE -->
-
-          <!-- SKILLS -->
-          <section class="mt-8 first:mt-0">
-            <!-- To keep in the same column -->
-            <div class="break-inside-avoid">
-              <h2
-                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
-              >
-                SKILLS
-              </h2>
-              <section class="mb-4.5 break-inside-avoid">
-                <div class="my-3.2 last:pb-1.5">
-                  <ul
-                    class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
-                  >
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      HTML
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      CSS
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      JavaScript
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      React js
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      Redux
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      Firebase
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      Node js
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      Express js
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      Mongo DB
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
-                    >
-                      SCSS
-                    </li>
-                  </ul>
-                </div>
-              </section>
-            </div>
-          </section>
-          <!-- /SKILLS -->
           <!-- CONTACT -->
 
           <section class="mt-8 first:mt-0">
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
               <h2
-                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-bold"
               >
                 CONTACT
               </h2>
@@ -321,7 +349,7 @@
                     <a href="https://github.com/adhiljuvane" class="group">
                       Github/adhiljuvane
                       <span
-                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                        class="inline-block text-gray-550 print:text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
                         >↗</span
                       >
                     </a>
@@ -330,7 +358,7 @@
                     <a href="https://www.linkedin.com/in/adhiljuvane" class="group">
                       linkedIn/adhiljuvane
                       <span
-                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                        class="inline-block text-gray-550 print:text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in"
                         >↗</span
                       >
                     </a>
